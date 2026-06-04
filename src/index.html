@@ -1,44 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
+  <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
   <title>FISM Company Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="top">
     <h1>FISM Company Site</h1>
-    <h3>Un sito aziendale dimostrativo pieno di errori da sistemare</h3>
-    <a class="btn-primary" href="#prodotti">Guarda i prodotti</a>
+    <h3>Un sito aziendale dimostrativo senza errori da sistemare</h3>
   </div>
 
-  <nav class="navBar">
+  <nav class="navbar">
     <a href="#servizi">Servizi</a>
     <a href="#prodotti">Prodotti</a>
     <a href="#faq">FAQ</a>
-    <a href="docs/guida-utente.md">Guida utente</a>
-    <a href="https://github.com/utente/repo-sbagliata">GitHub</a>
+    <a href="../docs/guida.md">Guida utente</a>
+    <a href="https://github.com/Duccioo/fism-buggy-company-site">GitHub</a>
   </nav>
 
   <main class="container">
-    <section id="service">
+    <section id="servizi">
       <h2>I nostri servizi</h2>
       <p>Offriamo consulenza, formazione e siti web statici.</p>
-      <img src="assets/immagini/hero.png">
+      <img src="../assets/img/hero.png">
     </section>
 
     <section id="prodotti">
       <h2>Prodotti</h2>
       <div class="cards">
         <div class="card">
-          <img src="assets/immagini/Product1.jpg" alt="">
+          <img src="../assets/img/product1.webp" alt="">
           <h2>Pacchetto Base</h2>
           <p>Una landing page semplice.</p>
           <a class="button" href="docs/guida.md">Dettagli</a>
         </div>
         <div class="card">
-          <img src="assets/immagini/product-2.png">
+          <img src="../assets/img/product2.webp">
           <h2>Pacchetto Pro</h2>
           <p>Una pagina con Bootstrap e componenti pronti.</p>
-          <a class="button" href="docs/installazione.html">Dettagli</a>
+          <a class="button" href="docs/installazione.md">Dettagli</a>
         </div>
         <div class="card">
           <h2>Pacchetto Data</h2>
@@ -54,7 +56,7 @@
       <div id="prodotti-lista"></div>
     </section>
 
-    <section id="faq-section">
+    <section id="faq">
       <h2>FAQ</h2>
       <div class="accordion" id="faqAccordion">
         <div class="accordion-item">

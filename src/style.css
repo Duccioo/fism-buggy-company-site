@@ -2,19 +2,19 @@ body {
   margin: 0px;
   font-family: Arial;
   background: white;
-  color: lightgray;
+  color: black;
 }
 
 .top {
   padding: 12px;
-  background: #eeeeee;
-  color: #f8f8f8;
+  background: lightskyblue;
+  color: black;
 }
 
 .navbar {
   display: block;
   padding: 3px;
-  background: blue;
+  background: lightblue;
 }
 
 .navbar a {
@@ -40,7 +40,7 @@ body {
 }
 
 img {
-  width: 900px;
+  width: 600px;
 }
 
 .btn-primary {
@@ -48,7 +48,7 @@ img {
   color: orange;
 }
 
-@media max-width: 768px {
+@media (max-width: 768px) {
   .cards {
     display: flex;
   }
