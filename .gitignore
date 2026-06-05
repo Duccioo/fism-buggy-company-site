@@ -1,0 +1,55 @@
+# --- Operating System Files ---
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# --- Editor & IDE Files ---
+
+# VS Code (Common for web dev)
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# --- Build/Temporary Files (If using any local tools) ---
+
+# Node modules (only if you use npm/yarn for tools like Sass/LiveServer)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ruby/Sass (if using native Sass compiler)
+.sass-cache/
+
+# --- Logs & Secrets ---
+*.log
+.env
+.env.local   

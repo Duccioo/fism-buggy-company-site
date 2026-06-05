@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior to automatically normalize line endings to LF on commit
+# and convert them to the native OS format on checkout.
 * text=auto
+
+# Explicitly declare HTML and CSS files as text with LF line endings
+# This ensures web servers (usually Linux-based) receive consistent files.
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Treat common image and font files as binary to prevent accidental modification
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Disable merge drivers for binary files to prevent corruption
+*.png -merge
+*.jpg -merge
+*.jpeg -merge
+*.gif -merge
+*.ico -merge
+*.woff -merge
+*.woff2 -merge
+*.ttf -merge
+*.eot -merge
+
+# Optional: Mark specific files as export-ignore if you don't want them 
+# in a zip archive downloaded from GitHub.
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore   
